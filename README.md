@@ -1,11 +1,14 @@
 # census-map
 <br>
-The motivation of the project is to use ACS(American Community Survey) data and join the location data (TIGER/line shapefiles), in order to show census data in choroplet map.
+The Amercian Community Survey (ACS) is a fantastic database that provides aggregate social and economic characteristics about American individuals and families down to the block group level. The motivation of this project is to use spatial analysis and mapping tools in R to showcase census data in choroplet map at the census tract level. R has a number of packages to make this easy, ggmap and rgdal in particular, making it easy to map census data.
 <br>
 <br>
-Using ACS(American Community Survey) data from factfinder.census.gov, I plotted poverty rate and uninsured rate for three counties in the bay area, San Francisco, Alameda, and San Mateo.
+'census_poverty_map': poverty rate for three counties in the bay area, San Francisco, Alameda, and San Mateo with ACS 2010-2014 data
 <br>
 <br>
-With crime location data from Kaggle's competition, I mapped the location and density of crime in San Francisco.
+'census_uninsured_map': uninsured rate for three counties in the bay area, San Francisco, Alameda, and San Mateo with ACS 2010-2014 data
+<br>
+<br>
+'sf_crime_map': crime location and density in San Francisco, with data from Kaggle
 
 
